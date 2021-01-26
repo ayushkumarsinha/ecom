@@ -1,0 +1,47 @@
+@for $i from 0 through 5 {
+  .m-t-#{$i}{
+    margin-top: ($i*5)+px;
+  }
+}
+
+@for $i from 0 through 5 {
+  .m-r-#{$i}{
+    margin-right: ($i*5)+px;
+  }
+}
+
+@for $i from 0 through 5 {
+  .m-b-#{$i}{
+    margin-bottom: ($i*5)+px;
+  }
+}
+
+@for $i from 0 through 5 {
+  .m-l-#{$i}{
+    margin-left: ($i*5)+px;
+  }
+}
+
+@for $i from 0 through 5 {
+  .p-t-#{$i}{
+    padding-top: ($i*5)+px;
+  }
+}
+
+@for $i from 0 through 5 {
+  .p-r-#{$i}{
+    padding-right: ($i*5)+px;
+  }
+}
+
+@for $i from 0 through 5 {
+  .p-b-#{$i}{
+    padding-bottom: ($i*5)+px;
+  }
+}
+
+@for $i from 0 through 5 {
+  .p-l-#{$i}{
+    padding-left: ($i*5)+px;
+  }
+}

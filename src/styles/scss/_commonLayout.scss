@@ -1,0 +1,12 @@
+.common{
+    &-header{
+        background-color: #9696f3;
+        line-height: 40px;
+        color: #ffffff;
+        font-size: 25px;
+    }
+
+    &-appName{
+        cursor: pointer;
+    }
+}
